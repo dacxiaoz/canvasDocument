@@ -1,0 +1,23 @@
+{
+  "name": "canvashtml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacxiaoz/canvasHtml.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dacxiaoz/canvasHtml/issues"
+  },
+  "homepage": "https://github.com/dacxiaoz/canvasHtml#readme"
+}
