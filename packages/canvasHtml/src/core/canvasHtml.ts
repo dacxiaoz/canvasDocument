@@ -1,4 +1,9 @@
+
+
 class CanvasHtml {
+    constructor(){
+        
+    }
     static register() {
         
     }
