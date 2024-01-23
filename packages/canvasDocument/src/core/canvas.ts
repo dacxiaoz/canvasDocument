@@ -14,6 +14,10 @@ class CanvasDocument {
             throw 'id必传'
         }
     }
+
+    getCtx(){
+        return this.canvas.ctx
+    }
 }
 
 export default CanvasDocument
