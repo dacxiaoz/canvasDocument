@@ -2,9 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   father: ^4.3.8
+  htmlparser2: ^9.1.0
 
 devDependencies:
   father: registry.npmmirror.com/father/4.3.8
+  htmlparser2: registry.npmmirror.com/htmlparser2/9.1.0
 
 packages:
 
@@ -2176,6 +2178,16 @@ packages:
       entities: registry.npmmirror.com/entities/2.2.0
     dev: true
 
+  registry.npmmirror.com/dom-serializer/2.0.0:
+    resolution: {integrity: sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==, registry: https://packages.aliyun.com/5f437c705fd102f22f6bbd34/npm/npm-registry/, tarball: https://registry.npmmirror.com/dom-serializer/-/dom-serializer-2.0.0.tgz}
+    name: dom-serializer
+    version: 2.0.0
+    dependencies:
+      domelementtype: registry.npmmirror.com/domelementtype/2.3.0
+      domhandler: registry.npmmirror.com/domhandler/5.0.3
+      entities: registry.npmmirror.com/entities/4.5.0
+    dev: true
+
   registry.npmmirror.com/domain-browser/1.2.0:
     resolution: {integrity: sha512-jnjyiM6eRyZl2H+W8Q/zLMA481hzi0eszAaBUzIVnmYVDBbnLxVNnfu1HgEBvCbL+71FrxMl3E6lpKH7Ge3OXA==, registry: https://packages.aliyun.com/5f437c705fd102f22f6bbd34/npm/npm-registry/, tarball: https://registry.npmmirror.com/domain-browser/-/domain-browser-1.2.0.tgz}
     name: domain-browser
@@ -2198,6 +2210,15 @@ packages:
       domelementtype: registry.npmmirror.com/domelementtype/2.3.0
     dev: true
 
+  registry.npmmirror.com/domhandler/5.0.3:
+    resolution: {integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==, registry: https://packages.aliyun.com/5f437c705fd102f22f6bbd34/npm/npm-registry/, tarball: https://registry.npmmirror.com/domhandler/-/domhandler-5.0.3.tgz}
+    name: domhandler
+    version: 5.0.3
+    engines: {node: '>= 4'}
+    dependencies:
+      domelementtype: registry.npmmirror.com/domelementtype/2.3.0
+    dev: true
+
   registry.npmmirror.com/domutils/2.8.0:
     resolution: {integrity: sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A==, registry: https://packages.aliyun.com/5f437c705fd102f22f6bbd34/npm/npm-registry/, tarball: https://registry.npmmirror.com/domutils/-/domutils-2.8.0.tgz}
     name: domutils
@@ -2206,6 +2227,16 @@ packages:
       dom-serializer: registry.npmmirror.com/dom-serializer/1.4.1
       domelementtype: registry.npmmirror.com/domelementtype/2.3.0
       domhandler: registry.npmmirror.com/domhandler/4.3.1
+    dev: true
+
+  registry.npmmirror.com/domutils/3.1.0:
+    resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==, registry: https://packages.aliyun.com/5f437c705fd102f22f6bbd34/npm/npm-registry/, tarball: https://registry.npmmirror.com/domutils/-/domutils-3.1.0.tgz}
+    name: domutils
+    version: 3.1.0
+    dependencies:
+      dom-serializer: registry.npmmirror.com/dom-serializer/2.0.0
+      domelementtype: registry.npmmirror.com/domelementtype/2.3.0
+      domhandler: registry.npmmirror.com/domhandler/5.0.3
     dev: true
 
   registry.npmmirror.com/duplexify/4.1.2:
@@ -2490,7 +2521,7 @@ packages:
       minimatch: registry.npmmirror.com/minimatch/3.1.2
       tsconfig-paths: registry.npmmirror.com/tsconfig-paths/4.0.0
       typescript: registry.npmmirror.com/typescript/5.0.4
-      typescript-transform-paths: registry.npmmirror.com/typescript-transform-paths/3.4.6
+      typescript-transform-paths: registry.npmmirror.com/typescript-transform-paths/3.4.6_typescript@5.0.4
       v8-compile-cache: registry.npmmirror.com/v8-compile-cache/2.3.0
     transitivePeerDependencies:
       - '@types/node'
@@ -2835,6 +2866,17 @@ packages:
     resolution: {integrity: sha512-igBTJcNNNhvZFRtm8uA6xMY6xYleeDwn3PeBCkDz7tHttv4F2hsDI2aPgNERWzvRcNYHNT3ymRaQzllmXj4YsQ==, registry: https://packages.aliyun.com/5f437c705fd102f22f6bbd34/npm/npm-registry/, tarball: https://registry.npmmirror.com/html-entities/-/html-entities-2.4.0.tgz}
     name: html-entities
     version: 2.4.0
+    dev: true
+
+  registry.npmmirror.com/htmlparser2/9.1.0:
+    resolution: {integrity: sha512-5zfg6mHUoaer/97TxnGpxmbR7zJtPwIYFMZ/H5ucTlPZhKvtum05yiPK3Mgai3a0DyVxv7qYqoweaEd2nrYQzQ==, registry: https://packages.aliyun.com/5f437c705fd102f22f6bbd34/npm/npm-registry/, tarball: https://registry.npmmirror.com/htmlparser2/-/htmlparser2-9.1.0.tgz}
+    name: htmlparser2
+    version: 9.1.0
+    dependencies:
+      domelementtype: registry.npmmirror.com/domelementtype/2.3.0
+      domhandler: registry.npmmirror.com/domhandler/5.0.3
+      domutils: registry.npmmirror.com/domutils/3.1.0
+      entities: registry.npmmirror.com/entities/4.5.0
     dev: true
 
   registry.npmmirror.com/http-deceiver/1.2.7:
@@ -4990,12 +5032,16 @@ packages:
       is-typed-array: registry.npmmirror.com/is-typed-array/1.1.12
     dev: true
 
-  registry.npmmirror.com/typescript-transform-paths/3.4.6:
+  registry.npmmirror.com/typescript-transform-paths/3.4.6_typescript@5.0.4:
     resolution: {integrity: sha512-qdgpCk9oRHkIBhznxaHAapCFapJt5e4FbFik7Y4qdqtp6VyC3smAIPoDEIkjZ2eiF7x5+QxUPYNwJAtw0thsTw==, registry: https://packages.aliyun.com/5f437c705fd102f22f6bbd34/npm/npm-registry/, tarball: https://registry.npmmirror.com/typescript-transform-paths/-/typescript-transform-paths-3.4.6.tgz}
+    id: registry.npmmirror.com/typescript-transform-paths/3.4.6
     name: typescript-transform-paths
     version: 3.4.6
+    peerDependencies:
+      typescript: '>=3.6.5'
     dependencies:
       minimatch: registry.npmmirror.com/minimatch/3.1.2
+      typescript: registry.npmmirror.com/typescript/5.0.4
     dev: true
 
   registry.npmmirror.com/typescript/5.0.4:
